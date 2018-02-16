@@ -7,3 +7,10 @@ lunch mongodb in the cmd by entering mongod and pressing enter
 now that mongodb is online 
 run the server from intellij or netbeanse or any java ide
 and then run the android project as well as the web project.
+
+----------------------------------------------------------------
+To run the server 
+open the server in any java IDE wait for the pom.xml file to download all the maven repositories.
+the run the project but after you have run the mongodb.
+
+Thank you.
