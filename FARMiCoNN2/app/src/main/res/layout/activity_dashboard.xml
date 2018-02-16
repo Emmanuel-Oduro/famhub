@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nanayawzaza.farmiconn.Dashboad">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/n"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/n"
+        android:layout_above="@+id/navigation"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Profile"
+            android:textColor="#5d4037"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/userprofile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/userbackground"
+            android:elevation="4dp"
+            android:src="@drawable/manuser" />
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="25dp">
+            <EditText
+                android:id="@+id/nam"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/rectang"
+                android:drawableLeft="@drawable/personsmal"
+                android:drawablePadding="10dp"
+                android:drawableTint="#FF4081"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:maxLength="30"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:textColor="#5d4037"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rectang"
+                android:drawableLeft="@drawable/icmailoutline"
+                android:drawablePadding="10dp"
+                android:drawableTint="#FF4081"
+                android:hint="Email"
+                android:focusable="false"
+                android:inputType="textEmailAddress"
+                android:maxLength="30"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:textColor="#5d4037"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rectang"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="10dp"
+                android:drawableTint="#FF4081"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:maxLength="30"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:textColor="#5d4037"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/regista"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/fillover"
+            android:text="Update Details"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottomnav" />
+
+</RelativeLayout>

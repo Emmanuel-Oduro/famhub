@@ -1,0 +1,9 @@
+Download mongodb from the mongodb site https://www.mongodb.com/download-center?jmp=nav#atlas
+Install mongodb and create a directory called data in your drive C partition
+Navigate to mongodb directory C:\Program Files\MongoDB\Server\3.4\bin
+lunch cmd and change directory to the bin directory of mongodb  cd C:\Program Files\MongoDB\Server\3.4\bin
+lunch mongodb in the cmd by entering mongod and pressing enter
+
+now that mongodb is online 
+run the server from intellij or netbeanse or any java ide
+and then run the android project as well as the web project.

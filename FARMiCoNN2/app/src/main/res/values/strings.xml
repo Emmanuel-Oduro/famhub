@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FARMiCoNN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">Sign_up</string>
+    <string name="title_activity_sign_in">Sign_in</string>
+    <string name="title_activity_dashboad">Dashboad</string>
+    <string name="title_activity_category">Category</string>
+    <string name="my_products">My Products</string>
+    <string name="change_password">Change Password</string>
+    <string name="home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank">Hello blank fragment</string>
+    <string name="product_cost">Product Cost</string>
+    <string name="product_description">Product Description</string>
+    <string name="register">REGISTER</string>
+    <string name="profile">Profile</string>
+    <string name="lorem_ipsup">z</string>
+</resources>

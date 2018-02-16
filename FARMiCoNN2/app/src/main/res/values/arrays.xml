@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="role" >
+    <item>Category</item>
+    <item>Tuber</item>
+    <item>Fruit</item>
+    <item>Vegetable</item>
+    <item>Oils</item>
+    <item>LiveStock</item>
+    <item>Fiber</item>
+    <item>Timber</item>
+    <item>Spices</item>
+    </string-array>
+</resources>

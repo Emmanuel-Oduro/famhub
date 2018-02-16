@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="3dp"
+    android:layout_height="wrap_content">
+
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/videoView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videoView"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnrecord"
+            android:text="RECORD "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/butshap"
+            android:textColor="#f9fbff"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/playv"
+            android:text="PLAY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/butshap"
+            android:textColor="#f9fbff"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</RelativeLayout>
